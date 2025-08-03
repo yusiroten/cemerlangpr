@@ -7,7 +7,7 @@ import ProductsSection from '@/components/sections/products';
 import LicensesSection from '@/components/sections/licenses';
 import ProjectsSection from '@/components/sections/projects';
 import ClientsSection from '@/components/sections/clients';
-import ArticlesSection from '@/components/sections/articles';
+import ActivitiesSection from '@/components/sections/activities';
 import ContactSection from '@/components/sections/contact';
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
         <LicensesSection />
         <ProjectsSection />
         <ClientsSection />
-        <ArticlesSection />
+        <ActivitiesSection />
         <ContactSection />
       </main>
       <Footer />

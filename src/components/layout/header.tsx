@@ -15,7 +15,7 @@ const navLinks = [
   { name: 'Lisensi', href: '#lisensi' },
   { name: 'Proyek', href: '#proyek' },
   { name: 'Klien', href: '#klien' },
-  { name: 'Blog', href: '#blog' },
+  { name: 'Kegiatan', href: '#kegiatan' },
 ];
 
 export default function Header() {
