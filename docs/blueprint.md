@@ -1,22 +1,21 @@
-# **App Name**: Cemerlang Group Hub
+# **App Name**: Cemerlang Gateway
 
 ## Core Features:
 
-- Company Overview Display: Showcase Cemerlang Group's company overview.
-- Benefits and Uses Explanation: Clearly describe the benefits and uses of Cemerlang Group's products and services.
-- Product Usage Instructions: Explain product usage with simple how-to steps.
-- Product Gallery: Showcase images of Cemerlang Group's product line: microsurfacing CH15, CH17, CH19, CH21, CH23, Ecobeton Chrono, Ecobeton Paveshield, Ecobeton Vetrofluid, Coldmix CH24, Coldmix CH28, Coating CH34, Atomized Microseal CH25, Marka CH-32, Geone, Coldplast CH33, Sabda Seal CH27, CH29, CH31, SAMI Waterproofing.
-- Licenses display: Display a list of Cemerlang Group's product licenses.
-- Project Portfolio: Showcase Cemerlang Group's project portfolio and completed works.
-- Client Showcase: Present a list of clients who have worked with Cemerlang Group.
-- Netlify Deployment: Deploy the landing page to Netlify for easy hosting and continuous deployment.
+- Hero Section: Hero Section: Showcase Cemerlang Group's mission and values with a captivating headline and imagery.
+- About Us: About Us: Provide a brief overview of Cemerlang Group's history, vision, and expertise.
+- Board of Directors: Board of Directors: Display a list of the board of directors
+- Product Catalog: Products Showcase: List the variety of products that the business sells
+- Project History: Projects Showcase: A display of previously accomplished initiatives with relevant photographs
+- Article Highlights: Article Feed: Highlight insightful articles and news related to the industry.
+- Contact & Social Hub: Contact Information and Social Links: Enable users to directly contact and interact with Cemerlang Group.
 
 ## Style Guidelines:
 
-- Primary color: A vibrant blue (#29ABE2) to convey reliability and innovation, reflecting Cemerlang Group's commitment to quality.
-- Background color: Light gray (#F0F2F5), providing a clean and modern backdrop that ensures readability and highlights key content.
-- Accent color: A deep orange (#FF8C00), drawing the eye to calls to action and important information. It is analogous to the primary and will create depth and good contrast.
-- Body font: 'PT Sans', a humanist sans-serif which gives the site a modern look and adds a touch of warmth and approachability.
-- Headline font: 'Space Grotesk', to match a modern, tech-oriented tone. Pairing well with the 'PT Sans' body.
-- Use modern and minimalist icons to represent various sections and features.
-- Maintain a clean and well-organized layout to improve readability and user experience. Grid-based structure for visual consistency.
+- Primary color: Deep navy blue (#1A237E) to convey trust, stability, and professionalism.
+- Background color: Light gray (#F5F5F5) to ensure readability and a clean interface.
+- Accent color: Warm gold (#FFB300) to highlight important information and calls to action.
+- Body and headline font: 'Inter' sans-serif, offering a modern, clean look. Suited to both headlines and body text
+- Use a set of modern and minimalist icons for clear navigation and visual appeal.
+- Implement a clean, grid-based layout for easy content scanning.
+- Incorporate subtle animations, like fading effects, for interactive engagement.
