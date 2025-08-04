@@ -7,7 +7,7 @@ export default function AboutSection() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="relative w-full h-80 rounded-lg overflow-hidden shadow-lg">
             <Image
-              src="https://i.ibb.co/vvrbnDxP/ilustrasi-pabrik.png"
+              src="https://i.ibb.co/gMY7DwBY/hero-3.png"
               alt="About Cemerlang Group"
               fill
               className="object-cover"
