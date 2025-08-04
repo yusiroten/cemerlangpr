@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <section id="beranda" className="relative h-[90vh] min-h-[600px] flex items-center justify-center text-white overflow-hidden">
       <Image
-        src="https://placehold.co/1920x1080.png"
+        src="https://i.ibb.co/hxYpV9Cz/hero-section-beranda.png"
         alt="Hero background"
         fill
         priority

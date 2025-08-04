@@ -3,18 +3,18 @@ import { Card, CardContent, CardTitle, CardDescription } from '@/components/ui/c
 import { Badge } from '@/components/ui/badge';
 
 const projects = [
-  { title: 'Pekerjaan Lapisan Microsurfacing & Cat Marka di Bandara Rampi', category: 'Bandara', imgSrc: 'https://placehold.co/600x400.png', hint: 'airport runway' },
-  { title: 'Pekerjaan Lapisan Microsurfacing di Balapan & Tugu Malang', category: 'Infrastruktur', imgSrc: 'https://placehold.co/600x400.png', hint: 'city road' },
-  { title: 'Pekerjaan Pengecatan Marka di Bandara Soekarno-Hatta Ultima 3', category: 'Bandara', imgSrc: 'https://placehold.co/600x400.png', hint: 'airport markings' },
-  { title: 'Pekerjaan Lapisan Microsurfacing di Area Stadion Gelora Bung Karno Jakarta', category: 'Fasilitas Olahraga', imgSrc: 'https://placehold.co/600x400.png', hint: 'stadium complex' },
-  { title: 'Pekerjaan Lapisan Microsurfacing Tol Road Bali', category: 'Jalan Tol', imgSrc: 'https://placehold.co/600x400.png', hint: 'toll road' },
-  { title: 'Pekerjaan Lapisan Microsurfacing di Istana Kepresidenan Republik Indonesia', category: 'Gedung Pemerintahan', imgSrc: 'https://placehold.co/600x400.png', hint: 'presidential palace' },
-  { title: 'Pekerjaan Lapisan Microsurfacing di Sentul Circuit A dan B', category: 'Sirkuit Balap', imgSrc: 'https://placehold.co/600x400.png', hint: 'race track' },
-  { title: 'Pekerjaan Cat Barrier di Tol Manado Bitung', category: 'Jalan Tol', imgSrc: 'https://placehold.co/600x400.png', hint: 'road barrier' },
-  { title: 'Pekerjaan Lapisan Microsurfacing di Area Halaman Kejaksaan Tinggi Jakarta', category: 'Gedung Pemerintahan', imgSrc: 'https://placehold.co/600x400.png', hint: 'courthouse' },
-  { title: 'Pekerjaan Lapisan Microsurfacing di Tol Becakayu Jakarta', category: 'Jalan Tol', imgSrc: 'https://placehold.co/600x400.png', hint: 'elevated highway' },
-  { title: 'Pekerjaan Lapisan Microsurfacing di Landasan Pacu Halim Perdana Kusuma Jakarta', category: 'Bandara', imgSrc: 'https://placehold.co/600x400.png', hint: 'military airbase' },
-  { title: 'Pekerjaan Lapisan Microsurfacing di Gereja YONPOMAD Jonggol Jawa Barat', category: 'Tempat Ibadah', imgSrc: 'https://placehold.co/600x400.png', hint: 'church building' },
+  { title: 'Pekerjaan Lapisan Microsurfacing & Cat Marka di Bandara Rampi', category: 'Bandara', imgSrc: 'https://i.ibb.co/TxskkmXB/1.png', hint: 'airport runway' },
+  { title: 'Pekerjaan Lapisan Microsurfacing di Balapan & Tugu Malang', category: 'Infrastruktur', imgSrc: 'https://i.ibb.co/GQR6sHfx/2.png', hint: 'city road' },
+  { title: 'Pekerjaan Pengecatan Marka di Bandara Soekarno-Hatta Ultima 3', category: 'Bandara', imgSrc: 'https://i.ibb.co/XxGBwwkp/3.png', hint: 'airport markings' },
+  { title: 'Pekerjaan Lapisan Microsurfacing di Area Stadion Gelora Bung Karno Jakarta', category: 'Fasilitas Olahraga', imgSrc: 'https://i.ibb.co/YF2q4xBd/4.png', hint: 'stadium complex' },
+  { title: 'Pekerjaan Lapisan Microsurfacing Tol Road Bali', category: 'Jalan Tol', imgSrc: 'https://i.ibb.co/yFbTHhPr/5.png', hint: 'toll road' },
+  { title: 'Pekerjaan Lapisan Microsurfacing di Istana Kepresidenan Republik Indonesia', category: 'Gedung Pemerintahan', imgSrc: 'https://i.ibb.co/LzpxSDp8/6.png', hint: 'presidential palace' },
+  { title: 'Pekerjaan Lapisan Microsurfacing di Sentul Circuit A dan B', category: 'Sirkuit Balap', imgSrc: 'https://i.ibb.co/TMLSQrk7/7.png', hint: 'race track' },
+  { title: 'Pekerjaan Cat Barrier di Tol Manado Bitung', category: 'Jalan Tol', imgSrc: 'https://i.ibb.co/27GWBmfb/8.png', hint: 'road barrier' },
+  { title: 'Pekerjaan Lapisan Microsurfacing di Area Halaman Kejaksaan Tinggi Jakarta', category: 'Gedung Pemerintahan', imgSrc: 'https://i.ibb.co/KcLqPg5f/9.png', hint: 'courthouse' },
+  { title: 'Pekerjaan Lapisan Microsurfacing di Tol Becakayu Jakarta', category: 'Jalan Tol', imgSrc: 'https://i.ibb.co/d4B1bBLg/10.png', hint: 'elevated highway' },
+  { title: 'Pekerjaan Lapisan Microsurfacing di Landasan Pacu Halim Perdana Kusuma Jakarta', category: 'Bandara', imgSrc: 'https://i.ibb.co/rfKwz7pB/11.png', hint: 'military airbase' },
+  { title: 'Pekerjaan Lapisan Microsurfacing di Gereja YONPOMAD Jonggol Jawa Barat', category: 'Tempat Ibadah', imgSrc: 'https://i.ibb.co/vCrRbjhQ/12.png', hint: 'church building' },
 ];
 
 export default function ProjectsSection() {

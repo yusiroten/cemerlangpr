@@ -2,14 +2,14 @@ import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 
 const licenses = [
-  { name: 'ICAO-OACI-NKAO', imgSrc: 'https://placehold.co/150x80.png', hint: 'aviation logo' },
-  { name: 'Federation Aviation Administration', imgSrc: 'https://placehold.co/150x80.png', hint: 'aviation logo' },
-  { name: 'Kementerian Perhubungan Indonesia', imgSrc: 'https://placehold.co/150x80.png', hint: 'government logo' },
-  { name: 'PADI UMKM', imgSrc: 'https://placehold.co/150x80.png', hint: 'business logo' },
-  { name: 'LKPP INAPROC', imgSrc: 'https://placehold.co/150x80.png', hint: 'government logo' },
-  { name: 'ISO 9001 : 2015', imgSrc: 'https://placehold.co/150x80.png', hint: 'certification logo' },
-  { name: 'Eco Friendly', imgSrc: 'https://placehold.co/150x80.png', hint: 'eco logo' },
-  { name: 'KP14', imgSrc: 'https://placehold.co/150x80.png', hint: 'certification logo' },
+  { name: 'ICAO-OACI-NKAO', imgSrc: 'https://i.ibb.co/CpWYGByZ/20.png', hint: 'aviation logo' },
+  { name: 'Federation Aviation Administration', imgSrc: 'https://i.ibb.co/bRyfyJHW/21.png', hint: 'aviation logo' },
+  { name: 'Kementerian Perhubungan Indonesia', imgSrc: 'https://i.ibb.co/ZRq0vz6X/22.png', hint: 'government logo' },
+  { name: 'PADI UMKM', imgSrc: 'https://i.ibb.co/7xzfWMWb/23.png', hint: 'business logo' },
+  { name: 'LKPP INAPROC', imgSrc: 'https://i.ibb.co/WNGPFynV/Logo-LKPP-Inaproc.png', hint: 'government logo' },
+  { name: 'ISO 9001 : 2015', imgSrc: 'https://i.ibb.co/QvrZhxpC/25.png', hint: 'certification logo' },
+  { name: 'Eco Friendly', imgSrc: 'https://i.ibb.co/d0HCDLXb/26.png', hint: 'eco logo' },
+  { name: 'KP14', imgSrc: 'https://i.ibb.co/Kj55wt3s/KP14.png', hint: 'certification logo' },
 ];
 
 export default function LicensesSection() {

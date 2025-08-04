@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Building2, Menu, X } from 'lucide-react';
+import Image from 'next/image';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
@@ -38,9 +39,8 @@ export default function Header() {
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="flex items-center gap-2 font-bold text-xl text-primary flex-shrink-0">
-          <Building2 className="h-7 w-7" />
-          <span className='font-headline'>Cemerlang Group</span>
+        <Link href="/" className="flex items-center flex-shrink-0">
+          <Image src="https://i.ibb.co/SX8LnnF1/Logo-cemerlang-Ok-removebg-preview.png" alt="Cemerlang Group Logo" width={200} height={50} className="h-12 w-auto" />
         </Link>
 
         <nav className="hidden md:flex flex-1 justify-center items-center gap-6">
@@ -72,9 +72,8 @@ export default function Header() {
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
               <div className="p-4">
                 <div className="flex justify-between items-center mb-8">
-                    <Link href="/" className="flex items-center gap-2 font-bold text-lg text-primary" onClick={() => setMobileMenuOpen(false)}>
-                        <Building2 className="h-6 w-6" />
-                        <span className='font-headline'>Cemerlang Group</span>
+                    <Link href="/" onClick={() => setMobileMenuOpen(false)}>
+                        <Image src="https://i.ibb.co/SX8LnnF1/Logo-cemerlang-Ok-removebg-preview.png" alt="Cemerlang Group Logo" width={180} height={45} className="h-10 w-auto" />
                     </Link>
                     <Button variant="ghost" size="icon" onClick={() => setMobileMenuOpen(false)}>
                         <X className="h-6 w-6" />

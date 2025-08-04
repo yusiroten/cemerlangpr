@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -10,23 +11,23 @@ import {
 import Autoplay from 'embla-carousel-autoplay';
 
 const clients = [
-  { name: 'PT. Adhi Karya', hint: 'construction company logo' },
-  { name: 'Angkasa Pura II', hint: 'airport authority logo' },
-  { name: 'Angkasa Pura Airport', hint: 'airport logo' },
-  { name: 'PT. Hutama Karya', hint: 'construction company logo' },
-  { name: 'Jasa Marga Balikpapan', hint: 'toll road operator logo' },
-  { name: 'Jasa Marga Manado-Bitung', hint: 'toll road operator logo' },
-  { name: 'Jasa Marga Indonesia', hint: 'toll road operator logo' },
-  { name: 'Jasa Marga Bali', hint: 'toll road operator logo' },
-  { name: 'Jaya Konstruksi', hint: 'construction company logo' },
-  { name: 'Marga Sarana Jabar', hint: 'regional infrastructure company logo' },
-  { name: 'Nindya Karya', hint: 'construction company logo' },
-  { name: 'PP', hint: 'construction company logo' },
-  { name: 'Sentul International Circuit', hint: 'racetrack logo' },
-  { name: 'Sentul Karting Circuit', hint: 'racetrack logo' },
-  { name: 'Sekolah Tinggi Intelijen Negara', hint: 'intelligence agency logo' },
-  { name: 'Total Bangun Persada', hint: 'construction company logo' },
-  { name: 'Waskita', hint: 'construction company logo' },
+  { name: 'PT. Adhi Karya', imgSrc: 'https://i.ibb.co/Ndw0pNVd/adhi-karya.jpg', hint: 'construction company logo' },
+  { name: 'Angkasa Pura II', imgSrc: 'https://i.ibb.co/G3FfzDZw/Angkasa-Pura-II.jpg', hint: 'airport authority logo' },
+  { name: 'Angkasa Pura Airport', imgSrc: 'https://i.ibb.co/S73p5WPn/angkasa-pura.png', hint: 'airport logo' },
+  { name: 'PT. Hutama Karya', imgSrc: 'https://i.ibb.co/gF7HFjfg/hutama-karya.png', hint: 'construction company logo' },
+  { name: 'Jasa Marga Balikpapan', imgSrc: 'https://i.ibb.co/Kp9RC5Rj/jasamarga-balikpapan.png', hint: 'toll road operator logo' },
+  { name: 'Jasa Marga Manado-Bitung', imgSrc: 'https://i.ibb.co/CpqHTX2b/jasamarga-manado.png', hint: 'toll road operator logo' },
+  { name: 'Jasa Marga Indonesia', imgSrc: 'https://i.ibb.co/0R4KVW4W/jasamarga.jpg', hint: 'toll road operator logo' },
+  { name: 'Jasa Marga Bali', imgSrc: 'https://i.ibb.co/0p0nHsT0/jassa-marga-bali.jpg', hint: 'toll road operator logo' },
+  { name: 'Jaya Konstruksi', imgSrc: 'https://i.ibb.co/fhqzThP/jaya-konstruksi.png', hint: 'construction company logo' },
+  { name: 'Marga Sarana Jabar', imgSrc: 'https://i.ibb.co/BVY27qxS/marga-sarana-jabar.jpg', hint: 'regional infrastructure company logo' },
+  { name: 'Nindya Karya', imgSrc: 'https://i.ibb.co/Fbcv0SWS/nindya-karya.png', hint: 'construction company logo' },
+  { name: 'PP', imgSrc: 'https://i.ibb.co/JFbk57h7/PP.png', hint: 'construction company logo' },
+  { name: 'Sentul International Circuit', imgSrc: 'https://i.ibb.co/Z1vYQsMT/sentul-cirkuit.jpg', hint: 'racetrack logo' },
+  { name: 'Sentul Karting Circuit', imgSrc: 'https://i.ibb.co/q4z0pR2/sentul.jpg', hint: 'racetrack logo' },
+  { name: 'Sekolah Tinggi Intelijen Negara', imgSrc: 'https://i.ibb.co/35s804cZ/STIN.jpg', hint: 'intelligence agency logo' },
+  { name: 'Total Bangun Persada', imgSrc: 'https://i.ibb.co/S46vS515/total-bangun-persada.jpg', hint: 'construction company logo' },
+  { name: 'Waskita', imgSrc: 'https://i.ibb.co/dsrL4gc7/waskita.png', hint: 'construction company logo' },
 ];
 
 export default function ClientsSection() {
@@ -61,7 +62,7 @@ export default function ClientsSection() {
                     <CardContent className="flex flex-col items-center justify-center p-0">
                       <div className="relative w-36 h-20 mb-4">
                         <Image
-                          src="https://placehold.co/150x80.png"
+                          src={client.imgSrc}
                           alt={client.name}
                           fill
                           className="object-contain"

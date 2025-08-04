@@ -7,14 +7,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const activities = [
-  { title: 'Audiensi di Dinas PUPR Kota Bogor', slug: 'audiensi-dinas-pupr-bogor', imgSrc: 'https://placehold.co/600x400.png', hint: 'official meeting' },
-  { title: 'Audiensi di Dinas PUPR Kota Tangerang', slug: 'audiensi-dinas-pupr-tangerang', imgSrc: 'https://placehold.co/600x400.png', hint: 'government building' },
-  { title: 'Audiensi di Dinas PUPR DKI Jakarta', slug: 'audiensi-dinas-pupr-dki-jakarta', imgSrc: 'https://placehold.co/600x400.png', hint: 'city hall' },
-  { title: 'Audiensi di Kementerian PUPR Pusat Jakarta', slug: 'audiensi-kementerian-pupr-pusat', imgSrc: 'https://placehold.co/600x400.png', hint: 'ministry building' },
-  { title: 'Mock Up Microsurfacing di Tol Becakayu', slug: 'mockup-microsurfacing-tol-becakayu', imgSrc: 'https://placehold.co/600x400.png', hint: 'road work' },
-  { title: 'Mock Up di Revo Mall Kota Bekasi', slug: 'mockup-revo-mall-bekasi', imgSrc: 'https://placehold.co/600x400.png', hint: 'shopping mall' },
-  { title: 'Mock Up di Pelabuhan Patimbang Subang', slug: 'mockup-pelabuhan-patimbang-subang', imgSrc: 'https://placehold.co/600x400.png', hint: 'seaport' },
-  { title: 'Audiensi di Dinas PUPR Kota Sawahlunto', slug: 'audiensi-dinas-pupr-sawahlunto', imgSrc: 'https://placehold.co/600x400.png', hint: 'official discussion' },
+  { title: 'Audiensi di Dinas PUPR Kota Bogor', slug: 'audiensi-dinas-pupr-bogor', imgSrc: 'https://i.ibb.co/snGhLx9/Bogor.jpg', hint: 'official meeting' },
+  { title: 'Audiensi di Dinas PUPR Kota Tangerang', slug: 'audiensi-dinas-pupr-tangerang', imgSrc: 'https://i.ibb.co/m5knHvDB/Tangerang.jpg', hint: 'government building' },
+  { title: 'Audiensi di Dinas PUPR DKI Jakarta', slug: 'audiensi-dinas-pupr-dki-jakarta', imgSrc: 'https://i.ibb.co/cK2GKjVQ/PUPR-DKI.jpg', hint: 'city hall' },
+  { title: 'Audiensi di Kementerian PUPR Pusat Jakarta', slug: 'audiensi-kementerian-pupr-pusat', imgSrc: 'https://i.ibb.co/0ydK6jmg/PUPR-Pusat.jpg', hint: 'ministry building' },
+  { title: 'Mock Up Microsurfacing di Tol Becakayu', slug: 'mockup-microsurfacing-tol-becakayu', imgSrc: 'https://i.ibb.co/Fbcyf5Rj/MOCKUP-BECAKAYU-24-4-25-6.jpg', hint: 'road work' },
+  { title: 'Mock Up di Revo Mall Kota Bekasi', slug: 'mockup-revo-mall-bekasi', imgSrc: 'https://i.ibb.co/cSggnBKs/REVO-MALL-BEKASI-SURVEY-28-05-25-7.jpg', hint: 'shopping mall' },
+  { title: 'Mock Up di Pelabuhan Patimbang Subang', slug: 'mockup-pelabuhan-patimbang-subang', imgSrc: 'https://i.ibb.co/BKdXpB3b/Patimban-Subang.jpg', hint: 'seaport' },
+  { title: 'Audiensi di Dinas PUPR Kota Sawahlunto', slug: 'audiensi-dinas-pupr-sawahlunto', imgSrc: 'https://i.ibb.co/nMLq9NQ1/Sawahlunto.jpg', hint: 'official discussion' },
 ];
 
 export default function ActivitiesSection() {
