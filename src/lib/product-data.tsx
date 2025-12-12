@@ -3,11 +3,16 @@ import React from 'react';
 export interface Product {
   slug: string;
   title: React.ReactNode;
+<<<<<<< HEAD
   titleKey: any;
   description: string;
   descriptionKey: any;
   detailedDescription: string;
   detailedDescriptionKey: any;
+=======
+  description: string;
+  detailedDescription: string;
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
   imgSrc: string;
   hint: string;
 }
@@ -16,6 +21,7 @@ export const productCategories: { [key: string]: Product[] } = {
   'Microsurfacing': [
     { 
       slug: 'microsurfacing-ch-15',
+<<<<<<< HEAD
       title: <>Microsurfacing CH-15&trade;</>,
       titleKey: 'microsurfacing_ch_15_title',
       description: 'Lapisan tipis untuk preservasi jalan dengan lalu lintas rendah, menjaga keawetan permukaan jalan.',
@@ -26,12 +32,18 @@ Dengan menggunakan agregat halus berkualitas tinggi dan emulsi polimer yang difo
 
 Produk ini sangat cocok diaplikasikan pada jalan perumahan, jalan kolektor lokal, dan area parkir. Dengan memperpanjang umur layanan jalan hingga 5-7 tahun, Microsurfacing CH-15™ menunda kebutuhan akan perbaikan struktural yang mahal, menjadikannya investasi cerdas untuk pengelolaan aset infrastruktur jalan. Ini adalah langkah proaktif dalam menjaga kualitas jalan dan memastikan keselamatan serta kenyamanan bagi para pengguna.`,
       detailedDescriptionKey: 'microsurfacing_ch_15_detailed_desc',
+=======
+      title: <>Microsurfacing CH-15&trade;</>, 
+      description: 'Lapisan tipis untuk preservasi jalan dengan lalu lintas rendah, menjaga keawetan permukaan jalan.', 
+      detailedDescription: 'Microsurfacing CH-15™ adalah campuran aspal emulsi polimer yang dirancang khusus untuk jalan dengan volume lalu lintas ringan hingga sedang. Produk ini efektif untuk mengisi retak-retak kecil, memperbaiki kerusakan permukaan, dan memberikan lapisan aus baru yang tahan lama, sehingga memperpanjang umur jalan dan meningkatkan keselamatan.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/tPw1vW2Q/Microsurfacing-CH-15.png', 
       hint: 'road paving' 
     },
     { 
       slug: 'microsurfacing-ch-17',
       title: <>Microsurfacing CH-17&trade;</>, 
+<<<<<<< HEAD
       titleKey: 'microsurfacing_ch_17_title',
       description: 'Solusi ideal untuk jalan dengan volume lalu lintas sedang, meningkatkan daya tahan dan kenyamanan berkendara.',
       descriptionKey: 'microsurfacing_ch_17_desc',
@@ -41,12 +53,17 @@ Formula CH-17™ menggunakan kombinasi agregat dengan gradasi yang sedikit lebih
 
 Aplikasi ideal untuk Microsurfacing CH-17™ mencakup jalan-jalan perkotaan yang sibuk dan jalan penghubung antar kota. Solusi ini tidak hanya memperbaiki kerusakan yang ada tetapi juga memberikan lapisan pelindung yang tangguh terhadap elemen cuaca dan aus akibat lalu lintas. Ini adalah metode rehabilitasi permukaan yang sangat efisien, memperpanjang umur jalan secara substansial dan meningkatkan keselamatan publik tanpa memerlukan rekonstruksi total.`,
       detailedDescriptionKey: 'microsurfacing_ch_17_detailed_desc',
+=======
+      description: 'Solusi ideal untuk jalan dengan volume lalu lintas sedang, meningkatkan daya tahan dan kenyamanan berkendara.',
+      detailedDescription: 'Microsurfacing CH-17™ menawarkan keseimbangan sempurna antara biaya dan kinerja untuk jalan-jalan kolektor dan arteri sekunder. Dengan agregat yang sedikit lebih besar dari CH-15, produk ini memberikan tekstur permukaan yang lebih baik, meningkatkan ketahanan slip, dan secara signifikan meningkatkan daya tahan terhadap deformasi akibat lalu lintas sedang.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/6JBSzqKn/Microsurfacing-CH-17.png', 
       hint: 'road construction' 
     },
     { 
       slug: 'microsurfacing-ch-19',
       title: <>Microsurfacing CH-19&trade;</>, 
+<<<<<<< HEAD
       titleKey: 'microsurfacing_ch_19_title',
       description: 'Memberikan perlindungan maksimal untuk jalan raya dan arteri utama dengan lalu lintas padat.',
       descriptionKey: 'microsurfacing_ch_19_desc',
@@ -56,12 +73,17 @@ Keunggulan CH-19™ terletak pada penggunaan agregat berkualitas premium dengan 
 
 Produk ini adalah pilihan utama untuk proyek-proyek infrastruktur kritis di mana kinerja jangka panjang dan minimalnya intervensi pemeliharaan adalah prioritas. Microsurfacing CH-19™ secara signifikan memperpanjang siklus hidup perkerasan jalan yang paling vital, melindungi investasi infrastruktur yang besar, dan memastikan kelancaran arus lalu lintas yang menjadi urat nadi perekonomian.`,
       detailedDescriptionKey: 'microsurfacing_ch_19_detailed_desc',
+=======
+      description: 'Memberikan perlindungan maksimal untuk jalan raya dan arteri utama dengan lalu lintas padat.',
+      detailedDescription: 'Dirancang untuk jalan raya, jalan tol, dan arteri utama dengan volume lalu lintas tinggi, Microsurfacing CH-19™ menggunakan agregat berkualitas tinggi dan emulsi polimer yang dimodifikasi secara khusus. Hasilnya adalah lapisan permukaan yang sangat kuat, tahan terhadap alur (rutting), dan mampu menahan beban berat, memastikan kinerja jangka panjang di bawah kondisi paling berat sekalipun.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/sJwDTtDt/Microsurfacing-CH-19.png', 
       hint: 'highway maintenance' 
     },
     { 
       slug: 'microsurfacing-ch-21',
       title: <>Microsurfacing CH-21&trade;</>, 
+<<<<<<< HEAD
       titleKey: 'microsurfacing_ch_21_title',
       description: 'Diformulasikan khusus untuk kondisi cuaca ekstrem dan beban berat, seperti pada area industri.',
       descriptionKey: 'microsurfacing_ch_21_desc',
@@ -71,12 +93,17 @@ Produk ini menggunakan agregat yang sangat keras dan tahan aus dengan gradasi sp
 
 Dengan CH-21™, area operasional industri dapat mempertahankan kondisi permukaan yang aman dan efisien untuk waktu yang lebih lama, mengurangi downtime akibat perbaikan, dan melindungi aset perkerasan dari kerusakan dini. Ini adalah solusi rekayasa canggih untuk tantangan infrastruktur industri yang paling menuntut, memberikan ketahanan dan keandalan yang tak tertandingi.`,
       detailedDescriptionKey: 'microsurfacing_ch_21_detailed_desc',
+=======
+      description: 'Diformulasikan khusus untuk kondisi cuaca ekstrem dan beban berat, seperti pada area industri.',
+      detailedDescription: 'Microsurfacing CH-21™ adalah solusi heavy-duty yang diformulasikan untuk area dengan beban sangat berat dan kondisi ekstrem, seperti kawasan industri, pelabuhan, dan area pergudangan. Campuran ini memiliki ketahanan superior terhadap tumpahan bahan kimia, beban statis yang berat, dan lalu lintas kendaraan lambat yang berbelok tajam.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/rGcJ9XvP/Microsurfacing-CH-21.png', 
       hint: 'heavy duty road' 
     },
     { 
       slug: 'microsurfacing-ch-23',
       title: <>Microsurfacing CH-23&trade;</>, 
+<<<<<<< HEAD
       titleKey: 'microsurfacing_ch_23_title',
       description: 'Pilihan premium untuk proyek yang membutuhkan presisi tinggi seperti landasan pacu bandara dan sirkuit balap.',
       descriptionKey: 'microsurfacing_ch_23_desc',
@@ -86,6 +113,10 @@ CH-23™ menggunakan agregat pilihan yang 100% hasil pemecahan mesin (crushed) d
 
 Pada sirkuit balap, tekstur mikro dan makro yang presisi dari CH-23™ memberikan grip yang konsisten dan dapat diandalkan bagi kendaraan berkecepatan tinggi, sementara pada landasan pacu, ia memastikan pengereman pesawat yang aman dalam segala kondisi cuaca. Ini adalah puncak teknologi microsurfacing, di mana rekayasa material bertemu dengan kebutuhan akan keselamatan dan performa ekstrem.`,
       detailedDescriptionKey: 'microsurfacing_ch_23_detailed_desc',
+=======
+      description: 'Pilihan premium untuk proyek yang membutuhkan presisi tinggi seperti landasan pacu bandara dan sirkuit balap.',
+      detailedDescription: 'Untuk aplikasi yang menuntut presisi dan kinerja tertinggi, Microsurfacing CH-23™ adalah jawabannya. Produk ini digunakan pada landasan pacu bandara, taxiway, dan sirkuit balap, di mana permukaan yang sangat rata, daya cengkeram tinggi, dan ketahanan terhadap gaya geser ekstrem sangat penting. Formulanya memastikan pengeringan cepat untuk meminimalkan waktu penutupan.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/3mbNxhrq/Microsurfacing-CH-23.png', 
       hint: 'airport runway' 
     },
@@ -94,6 +125,7 @@ Pada sirkuit balap, tekstur mikro dan makro yang presisi dari CH-23™ memberika
     { 
       slug: 'coldmix-ch-24',
       title: <>Coldmix CH-24&trade;</>, 
+<<<<<<< HEAD
       titleKey: 'coldmix_ch_24_title',
       description: 'Campuran aspal dingin premium untuk perbaikan cepat pada jalan dengan lalu lintas sedang.',
       descriptionKey: 'coldmix_ch_24_desc',
@@ -103,12 +135,17 @@ Produk ini dibuat dengan agregat bersih berkualitas tinggi dan bahan pengikat as
 
 Ideal untuk tim pemeliharaan jalan kota, pengelola properti, dan kontraktor, Coldmix CH-24™ secara drastis mengurangi waktu perbaikan dan gangguan lalu lintas. Cukup tuangkan, ratakan, dan padatkan, area yang diperbaiki dapat segera dibuka untuk lalu lintas. Ini adalah solusi andal untuk menjaga jalan tetap aman dan mulus dengan cara yang paling efisien.`,
       detailedDescriptionKey: 'coldmix_ch_24_detailed_desc',
+=======
+      description: 'Campuran aspal dingin premium untuk perbaikan cepat pada jalan dengan lalu lintas sedang.',
+      detailedDescription: 'Coldmix CH-24™ adalah solusi perbaikan jalan yang efisien untuk area dengan lalu lintas sedang. Diformulasikan untuk kekuatan dan daya tahan yang lebih baik, produk ini memungkinkan perbaikan lubang dan retakan yang cepat dan tahan lama, bahkan dalam kondisi cuaca yang kurang ideal.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/36xmmf9/Coldmix-CH-24-e.png', 
       hint: 'asphalt patch' 
     },
     { 
       slug: 'coldmix-ch-28',
       title: <>Coldmix CH-28&trade;</>, 
+<<<<<<< HEAD
       titleKey: 'coldmix_ch_28_title',
       description: 'Solusi aspal dingin heavy-duty untuk perbaikan area industri dan jalan dengan lalu lintas berat.',
       descriptionKey: 'coldmix_ch_28_desc',
@@ -118,6 +155,10 @@ Formula CH-28™ menggabungkan agregat yang sangat keras dan bergradasi khusus d
 
 Meskipun memiliki kekuatan tinggi, Coldmix CH-28™ tetap mudah diaplikasikan pada suhu lingkungan, memberikan solusi perbaikan yang cepat dan aman untuk area kritis. Kemampuannya untuk digunakan dalam berbagai kondisi cuaca, termasuk lubang yang tergenang air, menjadikannya produk yang sangat serbaguna dan andal untuk pemeliharaan infrastruktur yang paling menuntut.`,
       detailedDescriptionKey: 'coldmix_ch_28_detailed_desc',
+=======
+      description: 'Solusi aspal dingin heavy-duty untuk perbaikan area industri dan jalan dengan lalu lintas berat.',
+      detailedDescription: 'Coldmix CH-28™ dirancang khusus untuk menangani beban berat dan lalu lintas padat. Sebagai solusi perbaikan yang sangat kuat, produk ini ideal untuk jalan raya, kawasan industri, dan area lain yang membutuhkan daya tahan ekstra tanpa proses pemanasan.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/93ZZhzVw/Coldmix-CH-28-e.png', 
       hint: 'industrial asphalt' 
     },
@@ -126,6 +167,7 @@ Meskipun memiliki kekuatan tinggi, Coldmix CH-28™ tetap mudah diaplikasikan pa
     { 
       slug: 'ecobeton-chrono',
       title: <>Ecobeton Chrono&trade;</>, 
+<<<<<<< HEAD
       titleKey: 'ecobeton_chrono_title',
       description: 'Beton cepat kering untuk perbaikan yang efisien dan proyek dengan jadwal ketat.',
       descriptionKey: 'ecobeton_chrono_desc',
@@ -135,12 +177,17 @@ Dirancang untuk kemudahan penggunaan, Chrono™ hanya perlu dicampur dengan air 
 
 Aplikasi utamanya meliputi perbaikan cepat pada lantai pabrik, gudang, landasan pacu bandara, jalan beton, dan area parkir. Ecobeton Chrono™ adalah solusi andalan ketika jadwal proyek sangat ketat atau ketika downtime operasional harus diminimalkan, memberikan hasil perbaikan struktural yang kuat dan andal dalam waktu singkat.`,
       detailedDescriptionKey: 'ecobeton_chrono_detailed_desc',
+=======
+      description: 'Beton cepat kering untuk perbaikan yang efisien dan proyek dengan jadwal ketat.',
+      detailedDescription: 'Ecobeton Chrono™ adalah solusi beton inovatif yang dirancang untuk pengeringan super cepat, memungkinkan area yang diperbaiki dapat digunakan kembali dalam hitungan jam. Ideal untuk perbaikan jalan, lantai industri, dan proyek yang memerlukan waktu pengerjaan minimal.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/xKj96XXZ/Ecobeton-Chrono-e.png', 
       hint: 'fast setting concrete' 
     },
     { 
       slug: 'ecobeton-paveshield-chrono',
       title: <>Ecobeton Paveshield Chrono&trade;</>, 
+<<<<<<< HEAD
       titleKey: 'ecobeton_paveshield_chrono_title',
       description: 'Pelindung permukaan perkerasan yang cepat kering dan tahan lama.',
       descriptionKey: 'ecobeton_paveshield_chrono_desc',
@@ -150,12 +197,17 @@ Tidak seperti pelapis permukaan tradisional yang membentuk film, Paveshield Chro
 
 Sangat ideal untuk trotoar, plaza perkotaan, jalan setapak, area parkir, dan garasi. Paveshield Chrono™ membuat permukaan beton lebih mudah dibersihkan, mengurangi pertumbuhan lumut dan jamur, serta memberikan perlindungan jangka panjang terhadap degradasi akibat cuaca dan lalu lintas pejalan kaki maupun kendaraan ringan.`,
       detailedDescriptionKey: 'ecobeton_paveshield_chrono_detailed_desc',
+=======
+      description: 'Pelindung permukaan perkerasan yang cepat kering dan tahan lama.',
+      detailedDescription: 'Ecobeton Paveshield Chrono™ adalah pelapis pelindung transparan yang cepat kering untuk perkerasan beton. Produk ini meningkatkan ketahanan terhadap abrasi, noda, dan cuaca, sekaligus mempertahankan tampilan alami beton. Cocok untuk trotoar, area parkir, dan plaza.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/qLbfb8sM/Ecobeton-Paveshield.png', 
       hint: 'pavement shield' 
     },
     { 
       slug: 'ecobeton-vetrofluid',
       title: <>Ecobeton Vetrofluid&trade;</>, 
+<<<<<<< HEAD
       titleKey: 'ecobeton_vetrofluid_title',
       description: 'Pelapis multifungsi untuk proteksi, pengerasan, dan waterproofing beton.',
       descriptionKey: 'ecobeton_vetrofluid_desc',
@@ -165,6 +217,10 @@ Reaksi ini secara permanen menyegel pori-pori dan retakan mikro di dalam beton, 
 
 Produk ini adalah solusi definitif untuk masalah kelembaban pada struktur beton seperti basement, terowongan, tangki air, dan fondasi. Vetrofluid™ memberikan perlindungan permanen dari dalam, menghentikan kerusakan akibat penetrasi air dan korosi pada tulangan baja, serta memastikan durabilitas maksimal dari struktur beton.`,
       detailedDescriptionKey: 'ecobeton_vetrofluid_detailed_desc',
+=======
+      description: 'Pelapis multifungsi untuk proteksi, pengerasan, dan waterproofing beton.',
+      detailedDescription: 'Ecobeton Vetrofluid™ adalah larutan berbasis silikat yang meresap ke dalam beton, memberikan perlindungan permanen dari dalam. Produk ini mengeraskan permukaan, membuatnya kedap air, dan melindunginya dari kerusakan akibat siklus beku-cair serta bahan kimia. Solusi lengkap untuk durabilitas beton jangka panjang.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/BVdRHxCf/Ecobeton-vetrofluid.png', 
       hint: 'concrete protection' 
     },
@@ -173,6 +229,7 @@ Produk ini adalah solusi definitif untuk masalah kelembaban pada struktur beton 
     { 
       slug: 'sabda-seal-ch-27',
       title: <>Sabda Seal CH-27&trade;</>, 
+<<<<<<< HEAD
       titleKey: 'sabda_seal_ch_27_title',
       description: 'Pelapis kedap air serbaguna untuk perlindungan menengah pada berbagai permukaan.',
       descriptionKey: 'sabda_seal_ch_27_desc',
@@ -182,12 +239,17 @@ Setelah mengering, CH-27™ membentuk lapisan yang tangguh namun tetap fleksibel
 
 Kemudahan aplikasinya—cukup dengan kuas, rol, atau spray—membuatnya cocok untuk proyek profesional maupun do-it-yourself. Sabda Seal CH-27™ memberikan solusi waterproofing yang ekonomis dan andal, menjaga bangunan tetap kering, mencegah pertumbuhan jamur, dan melindungi integritas struktural dari kerusakan akibat air.`,
       detailedDescriptionKey: 'sabda_seal_ch_27_detailed_desc',
+=======
+      description: 'Pelapis kedap air serbaguna untuk perlindungan menengah pada berbagai permukaan.',
+      detailedDescription: 'Sabda Seal CH-27™ adalah pelapis waterproofing fleksibel yang dirancang untuk aplikasi pada atap, dinding, dan area basah dengan tingkat paparan sedang. Produk ini memberikan lapisan pelindung yang efektif terhadap rembesan air dan kelembaban, serta tahan terhadap perubahan cuaca.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/RGNgLbH9/Sabda-Seal-CH-27.png', 
       hint: 'waterproofing sealant' 
     },
     { 
       slug: 'sabda-seal-ch-29',
       title: <>Sabda Seal CH-29&trade;</>, 
+<<<<<<< HEAD
       titleKey: 'sabda_seal_ch_29_title',
       description: 'Pelapis kedap air heavy-duty untuk area yang membutuhkan proteksi ekstra seperti kolam renang.',
       descriptionKey: 'sabda_seal_ch_29_desc',
@@ -197,12 +259,17 @@ Ketika dicampur, kedua komponen tersebut membentuk adukan yang mudah diaplikasik
 
 CH-29™ tidak beracun dan aman untuk kontak dengan air minum setelah kering sempurna, menjadikannya pilihan yang sesuai untuk reservoir air bersih. Untuk area yang membutuhkan perlindungan waterproofing maksimal dan keandalan tanpa kompromi, Sabda Seal CH-29™ adalah standar industri yang memberikan ketenangan pikiran.`,
       detailedDescriptionKey: 'sabda_seal_ch_29_detailed_desc',
+=======
+      description: 'Pelapis kedap air heavy-duty untuk area yang membutuhkan proteksi ekstra seperti kolam renang.',
+      detailedDescription: 'Sabda Seal CH-29™ menawarkan perlindungan waterproofing superior untuk area kritis seperti kolam renang, tangki air, dan basement. Formulanya yang lebih kuat memberikan ketahanan tinggi terhadap tekanan air dan bahan kimia, memastikan perlindungan jangka panjang.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/jZbJ79Lk/Sabda-Seal-CH-29.png', 
       hint: 'heavy duty waterproofing' 
     },
     { 
       slug: 'sabda-seal-ch-31',
       title: <>Sabda Seal CH-31&trade;</>, 
+<<<<<<< HEAD
       titleKey: 'sabda_seal_ch_31_title',
       description: 'Solusi premium dengan elastisitas tinggi untuk struktur yang mengalami pergerakan.',
       descriptionKey: 'sabda_seal_ch_31_desc',
@@ -212,6 +279,10 @@ Produk ini berbahan dasar hybrid polymer canggih yang menggabungkan keunggulan k
 
 Aplikasinya menghasilkan lapisan pelindung yang mulus tanpa sambungan, menghilangkan titik lemah yang biasa ditemukan pada sistem membran konvensional. Untuk proyek-proyek di mana pergerakan struktural menjadi perhatian utama dan kegagalan waterproofing bukanlah pilihan, Sabda Seal CH-31™ memberikan solusi perlindungan dinamis yang paling andal dan tahan lama.`,
       detailedDescriptionKey: 'sabda_seal_ch_31_detailed_desc',
+=======
+      description: 'Solusi premium dengan elastisitas tinggi untuk struktur yang mengalami pergerakan.',
+      detailedDescription: 'Sabda Seal CH-31™ adalah produk waterproofing premium dengan elastisitas superior, ideal untuk sambungan konstruksi, atap datar yang luas, dan struktur lain yang rentan terhadap pergerakan atau getaran. Produk ini mampu menahan retak dan menjaga integritas lapisan kedap air dalam kondisi dinamis.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/YBbpdZ2m/Sabda-Seal-CH-31.png', 
       hint: 'flexible waterproofing' 
     },
@@ -219,6 +290,7 @@ Aplikasinya menghasilkan lapisan pelindung yang mulus tanpa sambungan, menghilan
   'Produk Spesial': [
     { 
       slug: 'atomized-microseal',
+<<<<<<< HEAD
       title: 'Atomized Microseal',
       titleKey: 'atomized_microseal_title',
       description: 'Teknologi microseal teratomisasi untuk proteksi permukaan maksimal terhadap cuaca dan abrasi.',
@@ -229,12 +301,18 @@ Teknologi ini menghasilkan lapisan pelindung yang sangat tipis namun sangat pada
 
 Aplikasi Atomized Microseal sangat cepat dan efisien, mencakup area yang luas dalam waktu singkat dengan gangguan minimal. Sangat cocok untuk proteksi jalan raya, jembatan, area parkir bertingkat, dan plaza pejalan kaki. Ini adalah metode canggih untuk memperpanjang umur infrastruktur secara signifikan sambil mempertahankan estetika aslinya.`,
       detailedDescriptionKey: 'atomized_microseal_detailed_desc',
+=======
+      title: 'Atomized Microseal', 
+      description: 'Teknologi microseal teratomisasi untuk proteksi permukaan maksimal terhadap cuaca dan abrasi.',
+      detailedDescription: 'Atomized Microseal adalah pelapis pelindung ultra-tipis yang diaplikasikan dengan teknologi atomisasi. Produk ini menembus ke dalam pori-pori permukaan beton atau aspal, menciptakan penghalang yang sangat tahan terhadap air, minyak, dan abrasi. Ini secara signifikan memperpanjang umur permukaan sambil mempertahankan penampilan aslinya.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/xtCFdDSf/Atomized-Microseal.png', 
       hint: 'surface protection' 
     },
     { 
       slug: 'coldplast',
       title: 'Coldplast', 
+<<<<<<< HEAD
       titleKey: 'coldplast_title',
       description: 'Material perkerasan dingin termoplastik untuk marka jalan, area parkir, dan zona pejalan kaki.',
       descriptionKey: 'coldplast_desc',
@@ -244,12 +322,17 @@ Keunggulan utama Coldplast adalah daya tahannya yang luar biasa terhadap aus aki
 
 Coldplast sangat ideal untuk aplikasi di area dengan lalu lintas padat di mana daya tahan adalah kunci, seperti zebra cross, garis berhenti, simbol (misalnya, panah atau logo sepeda), dan marka di persimpangan sibuk. Aplikasinya yang tidak memerlukan peralatan pemanas yang besar membuatnya lebih efisien untuk proyek-proyek kecil hingga menengah.`,
       detailedDescriptionKey: 'coldplast_detailed_desc',
+=======
+      description: 'Material perkerasan dingin termoplastik untuk marka jalan, area parkir, dan zona pejalan kaki.',
+      detailedDescription: 'Coldplast adalah material marka jalan dua komponen yang diaplikasikan dingin, memberikan daya tahan dan visibilitas yang luar biasa. Tidak seperti termoplastik panas, produk ini tidak memerlukan pemanasan, sehingga lebih aman dan lebih cepat diaplikasikan. Ideal untuk zebra cross, garis berhenti, dan simbol marka jalan lainnya.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/twD3rX7s/Coldplast-CH-33.png', 
       hint: 'road marking' 
     },
     { 
       slug: 'sami-waterproofing',
       title: 'SAMI Waterproofing', 
+<<<<<<< HEAD
       titleKey: 'sami_waterproofing_title',
       description: 'Sistem membran interlayer penyerap stres untuk waterproofing jalan dan jembatan.',
       descriptionKey: 'sami_waterproofing_desc',
@@ -259,12 +342,17 @@ Fungsi utama SAMI adalah sebagai lapisan kedap air yang tangguh, mencegah air pe
 
 Sistem ini sangat krusial untuk perkerasan di atas dek jembatan beton, di mana pergerakan termal dan lendutan sangat umum terjadi. Dengan mengisolasi lapisan permukaan dari pergerakan di bawahnya dan menjaga lapisan struktural tetap kering, SAMI secara dramatis memperpanjang umur layanan jalan dan jembatan, mengurangi biaya siklus hidup, dan meningkatkan keandalan infrastruktur.`,
       detailedDescriptionKey: 'sami_waterproofing_detailed_desc',
+=======
+      description: 'Sistem membran interlayer penyerap stres untuk waterproofing jalan dan jembatan.',
+      detailedDescription: 'SAMI (Stress Absorbing Membrane Interlayer) adalah sistem waterproofing canggih untuk perkerasan aspal, terutama pada jembatan. Ini berfungsi sebagai lapisan peredam stres dan penghalang air antara lapisan pondasi dan lapisan permukaan, mencegah retak reflektif dan kerusakan akibat penetrasi air, sehingga memperpanjang umur infrastruktur secara signifikan.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/B2rzprWy/S-A-M-I-Waterproofing.png', 
       hint: 'waterproofing membrane' 
     },
     { 
       slug: 'coating',
       title: 'Coating', 
+<<<<<<< HEAD
       titleKey: 'coating_title',
       description: 'Berbagai jenis pelapis pelindung industrial untuk daya tahan ekstra pada beton dan baja.',
       descriptionKey: 'coating_desc',
@@ -274,12 +362,17 @@ Pelapis epoxy kami memberikan permukaan yang keras, tahan abrasi, dan tahan kimi
 
 Tim ahli kami akan membantu Anda memilih sistem pelapisan yang paling sesuai dengan kebutuhan operasional, paparan kimia, dan persyaratan estetika proyek Anda. Dengan persiapan permukaan yang tepat dan aplikasi profesional, coating kami memberikan hasil akhir yang tidak only fungsional dan tahan lama tetapi juga meningkatkan penampilan fasilitas Anda.`,
       detailedDescriptionKey: 'coating_detailed_desc',
+=======
+      description: 'Berbagai jenis pelapis pelindung industrial untuk daya tahan ekstra pada beton dan baja.',
+      detailedDescription: 'Kami menyediakan berbagai solusi coating industrial, termasuk epoxy, polyurethane, dan polyurea, yang dirancang untuk melindungi permukaan beton dan baja dari korosi, abrasi, bahan kimia, dan benturan. Aplikasi meliputi lantai pabrik, area parkir, tangki penyimpanan, dan struktur baja, memberikan hasil akhir yang tahan lama dan estetis.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/DgLG0882/Coating-CH-34.png', 
       hint: 'protective coating' 
     },
     { 
       slug: 'geone',
       title: 'Geone', 
+<<<<<<< HEAD
       titleKey: 'geone_title',
       description: 'Produk geosintetik untuk stabilisasi dan perkuatan tanah pada proyek konstruksi.',
       descriptionKey: 'geone_desc',
@@ -289,12 +382,17 @@ Rangkaian produk kami meliputi Geotekstil (non-woven dan woven) untuk fungsi sep
 
 Dengan menggunakan produk Geone, para insinyur dapat merancang dinding yang lebih curam, membangun jalan di atas tanah yang buruk, dan membuat sistem drainase yang lebih efisien. Ini adalah solusi inovatif yang memungkinkan pembangunan di lokasi yang sebelumnya dianggap tidak memungkinkan, mempercepat waktu konstruksi, dan menciptakan struktur yang lebih tahan lama dan berkelanjutan.`,
       detailedDescriptionKey: 'geone_detailed_desc',
+=======
+      description: 'Produk geosintetik untuk stabilisasi dan perkuatan tanah pada proyek konstruksi.',
+      detailedDescription: 'Geone adalah rangkaian produk geosintetik kami, termasuk geotekstil, geogrid, dan geokomposit. Produk-produk ini digunakan dalam aplikasi teknik sipil untuk perkuatan tanah, stabilisasi lereng, drainase bawah permukaan, dan filtrasi. Geone membantu meningkatkan kinerja struktur tanah dan mengurangi biaya konstruksi.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/zVZP1FMG/geone.png', 
       hint: 'geosynthetics material' 
     },
     { 
       slug: 'marka-jalan',
       title: 'Marka Jalan', 
+<<<<<<< HEAD
       titleKey: 'marka_jalan_title',
       description: 'Cat marka jalan termoplastik dan coldplastic berkualitas tinggi untuk visibilitas dan keselamatan.',
       descriptionKey: 'marka_jalan_desc',
@@ -304,6 +402,10 @@ Material termoplastik kami diaplikasikan dalam keadaan leleh pada suhu tinggi, m
 
 Sebagai alternatif, material coldplastic dua komponen kami menawarkan daya tahan yang lebih superior, terutama di area dengan gesekan tinggi seperti zebra cross dan persimpangan. Diaplikasikan pada suhu lingkungan, coldplastic lebih aman bagi pekerja dan dapat digunakan untuk membuat marka struktural atau berprofil untuk meningkatkan kewaspadaan pengendara. Kedua solusi ini memastikan marka jalan yang tahan lama, sangat terlihat, dan berkontribusi langsung pada peningkatan keselamatan di jalan.`,
       detailedDescriptionKey: 'marka_jalan_detailed_desc',
+=======
+      description: 'Cat marka jalan termoplastik dan coldplastic berkualitas tinggi untuk visibilitas dan keselamatan.',
+      detailedDescription: 'Kami menawarkan solusi lengkap untuk marka jalan, termasuk cat termoplastik yang diaplikasikan panas dan cat coldplastic. Kedua jenis produk ini memberikan retroreflektivitas tinggi untuk visibilitas malam hari, daya tahan yang sangat baik, dan waktu pengeringan yang cepat untuk meminimalkan gangguan lalu lintas. Tersedia dalam berbagai warna sesuai standar.',
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
       imgSrc: 'https://i.ibb.co/9kWqnrhN/Marka-CH-32.png', 
       hint: 'road paint' 
     },

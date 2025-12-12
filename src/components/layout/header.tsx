@@ -7,6 +7,7 @@ import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
+<<<<<<< HEAD
 import LanguageSwitcher from '@/components/language-switcher';
 import { useLanguage } from '@/lib/translations';
 
@@ -27,6 +28,24 @@ export default function Header() {
     { name: t('navKontak'), href: '#kontak' },
   ];
 
+=======
+
+const navLinks = [
+  { name: 'Beranda', href: '#beranda' },
+  { name: 'Tentang Kami', href: '#tentang-kami' },
+  { name: 'Direksi', href: '#direksi' },
+  { name: 'Produk', href: '#produk' },
+  { name: 'Lisensi', href: '#lisensi' },
+  { name: 'Proyek', href: '#proyek' },
+  { name: 'Klien', href: '#klien' },
+  { name: 'Kegiatan', href: '#kegiatan' },
+];
+
+export default function Header() {
+  const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 10);
@@ -59,8 +78,15 @@ export default function Header() {
           ))}
         </nav>
         
+<<<<<<< HEAD
         <div className="hidden md:flex items-center gap-4">
             <LanguageSwitcher />
+=======
+        <div className="hidden md:flex items-center">
+            <Button variant="outline" asChild className="border-white text-white hover:bg-white/10">
+                <a href="#kontak">Hubungi Kami</a>
+            </Button>
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
         </div>
 
         <div className="md:hidden">
@@ -93,9 +119,13 @@ export default function Header() {
                       {link.name}
                     </a>
                   ))}
+<<<<<<< HEAD
                    <div className="mt-4">
                      <LanguageSwitcher />
                    </div>
+=======
+                   <a href="#kontak" onClick={() => setMobileMenuOpen(false)} className="text-lg font-medium transition-colors hover:text-primary">Hubungi Kami</a>
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
                 </nav>
               </div>
             </SheetContent>

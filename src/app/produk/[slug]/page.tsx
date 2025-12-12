@@ -8,19 +8,26 @@ import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
+<<<<<<< HEAD
 import { useLanguage } from '@/lib/translations';
+=======
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
 
 export default function ProductDetailPage() {
   const router = useRouter();
   const params = useParams();
   const [product, setProduct] = useState<Product | null>(null);
+<<<<<<< HEAD
   const { language, t } = useLanguage();
+=======
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
   
   const slug = Array.isArray(params.slug) ? params.slug[0] : params.slug;
 
   useEffect(() => {
     if (slug) {
       const foundProduct = getProductBySlug(slug);
+<<<<<<< HEAD
       if (foundProduct) {
         const translatedProduct = {
           ...foundProduct,
@@ -33,13 +40,22 @@ export default function ProductDetailPage() {
       }
     }
   }, [slug, language, t]);
+=======
+      setProduct(foundProduct || null);
+    }
+  }, [slug]);
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
 
   if (!product) {
     return (
         <div className="flex flex-col min-h-screen">
             <Header />
             <main className="flex-1 flex items-center justify-center">
+<<<<<<< HEAD
                 <p>{t('produkNotFound')}</p>
+=======
+                <p>Produk tidak ditemukan.</p>
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
             </main>
             <Footer />
         </div>
@@ -58,6 +74,7 @@ export default function ProductDetailPage() {
       <Header />
       <main className="flex-1 py-12 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
+<<<<<<< HEAD
           <Button variant="outline" onClick={() => router.push('/#produk')} className="mb-8">
             <ArrowLeft className="mr-2 h-4 w-4" />
             {t('kembaliKeProduk')}
@@ -68,14 +85,32 @@ export default function ProductDetailPage() {
               <Image
                 src={product.imgSrc}
                 alt={productTitle as string}
+=======
+          <Button variant="outline" onClick={() => router.back()} className="mb-8">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            Kembali ke Produk
+          </Button>
+
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
+            <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src={product.imgSrc}
+                alt={productTitle}
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
                 fill
                 className="object-cover"
                 data-ai-hint={product.hint}
               />
             </div>
+<<<<<<< HEAD
             <div className="space-y-6 flex flex-col justify-center h-full">
               <h1 className="text-3xl md:text-4xl font-bold text-primary font-headline" dangerouslySetInnerHTML={{ __html: product.title as string}}></h1>
               <p className="text-muted-foreground text-justify text-lg whitespace-pre-line">
+=======
+            <div className="space-y-6">
+              <h1 className="text-3xl md:text-4xl font-bold text-primary font-headline">{product.title}</h1>
+              <p className="text-muted-foreground text-justify text-lg">
+>>>>>>> dd4335c47cbc626c5a583e9b06e581bf00ed9e38
                 {product.detailedDescription}
               </p>
             </div>
