@@ -1,0 +1,88 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+import { useParams, useRouter } from 'next/navigation';
+import Image from 'next/image';
+import { getProductBySlug, Product } from '@/lib/product-data';
+import { Button } from '@/components/ui/button';
+import { ArrowLeft } from 'lucide-react';
+import Header from '@/components/layout/header';
+import Footer from '@/components/layout/footer';
+import { useLanguage } from '@/lib/translations';
+
+export default function ProductDetailPage() {
+  const router = useRouter();
+  const params = useParams();
+  const [product, setProduct] = useState<Product | null>(null);
+  const { language, t } = useLanguage();
+  
+  const slug = Array.isArray(params.slug) ? params.slug[0] : params.slug;
+
+  useEffect(() => {
+    if (slug) {
+      const foundProduct = getProductBySlug(slug);
+      if (foundProduct) {
+        const translatedProduct = {
+          ...foundProduct,
+          title: t(foundProduct.titleKey),
+          detailedDescription: t(foundProduct.detailedDescriptionKey),
+        };
+        setProduct(translatedProduct);
+      } else {
+        setProduct(null);
+      }
+    }
+  }, [slug, language, t]);
+
+  if (!product) {
+    return (
+        <div className="flex flex-col min-h-screen">
+            <Header />
+            <main className="flex-1 flex items-center justify-center">
+                <p>{t('produkNotFound')}</p>
+            </main>
+            <Footer />
+        </div>
+    );
+  }
+
+  // A simple type guard for our product titles
+  function isReactElement(value: any): value is React.ReactElement {
+    return value && typeof value === 'object' && 'props' in value;
+  }
+  
+  const productTitle = isReactElement(product.title) ? `Image for product` : product.title;
+
+  return (
+    <div className="flex flex-col min-h-screen bg-background text-foreground">
+      <Header />
+      <main className="flex-1 py-12 md:py-24">
+        <div className="container mx-auto px-4 md:px-6">
+          <Button variant="outline" onClick={() => router.push('/#produk')} className="mb-8">
+            <ArrowLeft className="mr-2 h-4 w-4" />
+            {t('kembaliKeProduk')}
+          </Button>
+
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
+            <div className="relative w-full aspect-square rounded-lg overflow-hidden shadow-lg border border-white">
+              <Image
+                src={product.imgSrc}
+                alt={productTitle as string}
+                fill
+                className="object-cover"
+                data-ai-hint={product.hint}
+              />
+            </div>
+            <div className="space-y-6 flex flex-col justify-center h-full">
+              <h1 className="text-3xl md:text-4xl font-bold text-primary font-headline" dangerouslySetInnerHTML={{ __html: product.title as string}}></h1>
+              <p className="text-muted-foreground text-justify text-lg whitespace-pre-line">
+                {product.detailedDescription}
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </div>
+  );
+}
